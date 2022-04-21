@@ -15,7 +15,7 @@ public class While1 : MonoBehaviour
     {
         while (counter<counterMax)
         {
-            Debug.Log("repeticion");
+            Debug.Log(counter);
             counter++;
         }
         Txt_display.text = "termino el while";
